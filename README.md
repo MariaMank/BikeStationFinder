@@ -9,10 +9,11 @@ In preprossecing.py file you can find classes and functions responsible for prep
 In solver.py file you can find implementation of the class which responsible for the actual spatial analysis (Location - Allocation analysis using PySal library).
 
 In the main file.py you can find example of calling the solver of BikeStationFinder.
+
 ![RozneWagiUrsus700](https://github.com/user-attachments/assets/a39d5f81-135c-47ba-b735-88da35052383)
 
 
 
 
 
-Note: The application uses Polish Boundary System WFS - will not work for the area outside of Poland without adjustments
+Note: The application uses Polish Boundary System WFS. Because of that script will not work for the area outside of Poland without adjustments
