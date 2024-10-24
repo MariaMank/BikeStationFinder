@@ -43,7 +43,7 @@ class BaseClass():
             # Create a new directory because it does not exist
             os.makedirs(path)
         self.dataInFrame.to_file(f"{path}{name}.{format}", crs="EPSG:2180")
-        print(f"zapisano GeodataFrame do {path}{name}.{path}")
+        print(f"zapisano GeodataFrame do {path}{name}.{format}")
 
     def join(self, data:list, columns:list):
         dict = {}
